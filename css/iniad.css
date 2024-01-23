@@ -38,3 +38,11 @@ h3 {
 .ex {
   font-size: 30px;
 }
+
+#header img {
+  height : 100%
+}
+
+#header {
+  background-color : #17194c;
+}
