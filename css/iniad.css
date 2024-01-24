@@ -52,5 +52,9 @@ h3 {
 .iniad {
   color: red;
 }
+/* h1タグ内のテキストにアンダーラインを追加 */
+h1 {
+  text-decoration: underline;
+}
 
 
