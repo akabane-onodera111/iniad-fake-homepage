@@ -46,3 +46,8 @@ h3 {
 #header {
   background-color : #17194c;
 }
+
+/* ページヘッダーのカラーを赤色に設定 */
+header {
+  color: red;
+}
