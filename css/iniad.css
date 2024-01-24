@@ -48,11 +48,10 @@ h3 {
   background-color : #17194c;
 }
 
-/* INIADクラスを持つ要素のテキストカラーを赤色に設定 */
 .iniad {
   color: red;
 }
-/* h1タグ内のテキストにアンダーラインを追加 */
+
 h1 {
   text-decoration: underline;
 }
