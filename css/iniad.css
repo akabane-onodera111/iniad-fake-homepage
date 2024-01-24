@@ -48,7 +48,7 @@ h3 {
 }
 
 /* ページヘッダーのカラーを赤色に設定 */
-header .INIAD {
+header  {
   color: red;
 }
 
