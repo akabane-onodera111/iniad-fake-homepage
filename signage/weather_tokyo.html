@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>INIAD天気予報</title>
+    <link rel="stylesheet" type="text/css" 
+          href="{{url_for('static', filename='weather.css')}}">  
+  </head>
+  <body>
+      <h1>INIAD天気予報</h1>
+        <form action=""method="post">
+      <p>
+        <input id="input-keyword" type="text" name="keyword"  value="{{city}}">
+        <input id="input-search"  type="submit" value="検索">
+      </p>
+        </form>
+      <h2>"{{city}}"</h2>
+      <ul>
+        <li>緯度：{{lat}}</li>
+        <li>経度：{{lng}}</li>
+      </ul>
+          <div class="map">
+            <img src="https://maps.googleapis.com/maps/api/staticmap?center={{lat}},{{lng}}&size=320x320&zoom=13&key="AIzaSyBOZ6tkbWNdSqfb_o_QMTbBH11KjVT60vc alt="地図">
+          </div>
+
+        <div id="main">
+    <p></p>"{{city}}"の天気予報は、以下のとおりです。</p>
+    <table>
+      <tr>
+        <th>日時</th>
+        <th>天気</th>
+        <th>気温</th>
+        <th>気圧</th>
+        <th>湿度</th>  
+      </tr>
+        {% for item in forecast %}
+        {% if  item['weather'] == 'Clear' %}
+        <tr class="clear">
+        {% elif item['weather'] == 'Rain' %}
+        <tr class="rain">
+        {% else %}
+      <tr>
+        {% endif %}
+        <td>{{item['date']}}</td>
+        <td>{{item['weather']}}</td>
+        <td>{{item['temperature']}}</td>
+        <td>{{item['pressure']}}</td>
+        <td>{{item['humidity']}}</td>
+      </tr>
+        {% endfor %}
+    </table>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
