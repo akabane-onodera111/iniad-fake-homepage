@@ -4,7 +4,7 @@ import apis
 
 app = Flask(__name__)
 
-@app.route('weather_tokyo.html', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def weather():
   city = '東京都北区赤羽台'
   if request.method == 'POST':

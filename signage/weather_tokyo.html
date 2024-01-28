@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>INIAD天気予報</title>
-    <link rel="stylesheet" type="text/css" 
-          href="{{url_for('static', filename='weather.css')}}">  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
       <h1>INIAD天気予報</h1>
-        <form action=""method="post">
+        <form method="post" action="/">
       <p>
         <input id="input-keyword" type="text" name="keyword"  value="{{city}}">
         <input id="input-search"  type="submit" value="検索">
