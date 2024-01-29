@@ -98,3 +98,25 @@ footer {
 	text-align: center;
 }
 /*追加分*/
+
+/*瀬川追加分*/
+.title1 {
+	text-align :center;
+	position: relative;
+	top: 50px;
+}
+
+.title2 {
+	text-align :center;
+	position: relative;
+	top: 50px;
+}
+
+.cloud{
+	position: relative;
+  }
+.cloud a{
+	position: absolute;
+	top:0;
+	left:0;
+  }
