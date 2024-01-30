@@ -2,6 +2,7 @@ from urllib import request, parse
 import json
 from datetime import datetime
 from pytz import timezone
+import jinja2 import Template
 
 GEOCODING_URL = ***
 GOOGLE_APIKEY = ***

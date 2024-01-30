@@ -50,6 +50,14 @@
       </tr>
         {% endfor %}
     </table>
+
+    {% if weather == 'cloud' %}
+      <h1>今日の天気は曇りです</h1>
+    {% else %}
+       <h1>今日の天気は不明です</h1>
+    {% endif %}
+
+
         </div>
       </div>
     </div>
