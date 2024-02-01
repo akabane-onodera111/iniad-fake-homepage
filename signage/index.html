@@ -13,27 +13,30 @@
  <link href="css/font-awesome.min.css" rel="stylesheet">
  <link href="css/style.css" rel="stylesheet">
  </head>
- <body id="black"?></body>
+ <body id="black"?>
   <!-- header -->
   <div class="wrap">
    <header class="cf">
     <img src="img_fixed/logo-b.png">
    </header>
+   <form action="/run_python" method="post">
+    <input type="submit" value="Pythonを起動">
+   </form>
    
    <!-- contents -->
-   <h1 class="title1">おはようございます！</h1>
+   <h1 class="title1">{{greeting}}！</h1>
    <h1 class="title2">今日の天気は晴れです！</h1>
 
    <!-- 雲画像１枚目 -->
    <div class ="pic_place">
-    <img src="img_fixed/cloud.jpg" class="cloud_pic">
+    <img src="img_fixed/cloud.png" class="cloud_pic">
     <a href="../templates/weather_home.html" class="pic_letter">天気のページ</a>
    </div>
 
    <!-- 雲画像２枚目 -->
    <div class ="pic_place2">
-    <img src="img_fixed/cloud.jpg" class="cloud_pic2">
-    <a href="ここに忘れ物リストのページリンク" class="pic_letter2">忘れ物確認のページ</a>
+    <img src="img_fixed/cloud.png" class="cloud_pic2">
+    <a href="./lisst.html" class="pic_letter2">忘れ物確認のページ</a>
    </div>
    
    <!-- footer -->

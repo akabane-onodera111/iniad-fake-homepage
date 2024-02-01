@@ -112,7 +112,7 @@ footer {
 	position: relative;
 	font-size: 70px;
 	top: 80px;
-	margin-bottom:230px;
+	margin-bottom:170px;
 }
 
 .pic_place{
@@ -130,21 +130,51 @@ footer {
 	font-size: 50px;
 	position: absolute;
 	left: 52%;
-	top: 43%;
+	top: 47%;
+	animation-name: tamesi;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
 }
 
 .pic_letter2{
 	font-size: 50px;
 	position: absolute;
 	left: 15%;
-	top: 43%;
+	top: 48%;
+	animation-name: tamesi;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2.5s;
 }
 
 
 .cloud_pic{
 	width: 70%;
+	animation-name: tamesi;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
 }
 
 .cloud_pic2{
 	width: 70%;
+	animation-name: tamesi;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2.5s;
+}
+
+@keyframes tamesi {
+    0% {
+        transform: translate(0,-30px);
+    }
+
+    100% {
+        transform: translate(0,30px)
+    }
 }
