@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from urllib import parse
 import apis
-import jinja2 import Template
 
 app = Flask(__name__)
 

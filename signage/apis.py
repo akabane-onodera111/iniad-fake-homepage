@@ -2,13 +2,12 @@ from urllib import request, parse
 import json
 from datetime import datetime
 from pytz import timezone
-import jinja2 import Template
 
-GEOCODING_URL = ***
-GOOGLE_APIKEY = ***
+#GEOCODING_URL = ***
+#GOOGLE_APIKEY = ***
 
-WEATHER_URL = ***
-WEATHER_APPID = ***
+#WEATHER_URL = ***
+#WEATHER_APPID = ***
 
 def address_to_latlng(address):
   params = {
