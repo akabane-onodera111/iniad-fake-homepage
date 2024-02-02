@@ -200,6 +200,10 @@ body {
    background-image: url(‘img_fixed/sky.jpg’);
 }
 
+.back {
+	width: 10%;
+}
+
 /*サイドバー追加*/
 #content {
 	display: flex;
