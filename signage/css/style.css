@@ -3,7 +3,7 @@
 	width: 1080px;
 	height: 1920px;
 	overflow: hidden;
-	background-color: #e0ffff;
+	background-color: #fffafa;
 	border: solid 0px #000;
 }
 .wrap2 {
@@ -131,14 +131,14 @@ footer {
 }
 
 .title3 {
-	margin-bottom:30px;
+	margin:50px;
 	font-size: 70px;
 	color: #000;
 	font-weight: bold;
 }
 
 .title4 {
-	margin-bottom:40px;
+	margin:30px;
 	top: 80px;
 	font-size: 40px;
 	color: #000;
