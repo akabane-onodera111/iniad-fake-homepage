@@ -250,5 +250,15 @@ table {
   }
 >>>>>>> bb79450cce8f165a75cca0608958681f1bd44da1
 
+/*池田追加分*/
+.image55 {
+	width: 300px; /* 画像のコンテナの幅 */
+	height: 200px; /* 画像のコンテナの高さ */
+	background-image: url('path/マイドライブ/pic.png); /* 背景画像のパス */
+	background-size: cover; /* 画像をコンテナにフィットさせる */
+	background-position: center; /* 画像の位置を中央に設定 */
+  }
+
+
 
   
