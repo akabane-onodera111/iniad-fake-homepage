@@ -34,37 +34,44 @@
             <tr>
                 <td>1</td>
                 <td>財布</td>
-                <td>□</td>
+                <td><input type="checkbox" id="item1" class="checklist-item"></td>
+
             </tr>
             <tr>
                 <td>2</td>
                 <td>鍵</td>
-                <td>□</td>
+                <td><input type="checkbox" id="item1" class="checklist-item"></td>
+
             </tr>
             <tr>
                 <td>3</td>
                 <td>携帯電話</td>
-                <td>□</td>
+                <td><input type="checkbox" id="item1" class="checklist-item"></td>
+            </td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>カバン</td>
-                <td>□</td>
+                <td><input type="checkbox" id="item1" class="checklist-item"></td>
+
             </tr>   
             <tr>
                 <td>5</td>
                 <td>手帳</td>
-                <td>□</td>
+                <td><input type="checkbox" id="item1" class="checklist-item"></td>
+
             </tr>         
             <tr>
                 <td>6</td>
                 <td>筆記用具</td>
-                <td>□</td>
+                <td><input type="checkbox" id="item1" class="checklist-item"></td>
+
             </tr>
             <tr>
                 <td>7</td>
                 <td>ハンカチ</td>
-                <td>□</td>
+                <td><input type="checkbox" id="item1" class="checklist-item"></td>
+
             </tr>      
         </tbody>
     </table>
@@ -76,24 +83,7 @@
    </footer>
   </div>
 
-<!-- scripts -->
-<!-- 既存のスクリプトリンク -->
-<script>
-    // チェックボックスの状態を管理するJavaScriptコード
-    document.addEventListener('DOMContentLoaded', function () {
-        const checkboxes = document.querySelectorAll('.checklist input[type="checkbox"]');
-        checkboxes.forEach(function(checkbox) {
-            checkbox.addEventListener('change', function() {
-                if (this.checked) {
-                    console.log(this.id + ' がチェックされました');
-                } else {
-                    console.log(this.id + ' のチェックが外れました');
-                }
-            });
-        });
-    });
-    <td><input type="checkbox" id="item1" class="checklist-item"></td>
 
-</script>
+
 </body>
 </html>
