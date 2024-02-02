@@ -178,3 +178,24 @@ footer {
         transform: translate(0,30px)
     }
 }
+
+/*サイドバー追加*/
+#content {
+	display: flex;
+	flex-direction: row;
+  }
+
+#sidebar {
+	width : 25%;
+  }
+
+#main {
+	width: 75%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*サイドバー追加*/
+
+.tenki_pic {
+	width: 70%;
+}
