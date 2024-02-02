@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
  <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,14 +13,21 @@
  <link href="css/style.css" rel="stylesheet">
  </head>
  <body id="black"?>
+    <!--pythonテスト-->
+    <button onclick="runPythonScript()">ボタン</button>
+    <script>
+    function runPythonScript() {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "time.py", true);
+      xhr.send();
+    }
+    </script>
+
   <!-- header -->
   <div class="wrap">
    <header class="cf">
     <img src="img_fixed/logo-b.png">
    </header>
-   <form action="/run_python" method="post">
-    <input type="submit" value="Pythonを起動">
-   </form>
    
    <!-- contents -->
    <h1 class="title1">{{greeting}}！</h1>
@@ -44,6 +50,7 @@
     <img src="img_fixed/logo-b.png" width="7%">
    </footer>
   </div>
+
 
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
