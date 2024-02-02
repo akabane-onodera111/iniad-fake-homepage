@@ -230,10 +230,31 @@ body {
 	width: 90%;
 }
 
+.item_pic {
+	width: 20%;
+}
+
 .arrow_pic {
 	width: 70%;
 }
 
+<<<<<<< HEAD
+/*池田追加分*/
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* セルのボーダーを合わせる */
+	background-color: #fafafa; /* 表の背景色を薄い青に設定 */
+}
+th, td {
+    border: 1px solid rgb(7, 7, 7); /* 薄いグレーのボーダー */
+    padding: 8px; /* セルの内側のスペース */
+    text-align: left; /* 左揃え */
+}
+th {
+    background-color: #cfcccc; /* 見出しの背景色 */
+}
+=======
 
 
 table {
@@ -252,3 +273,4 @@ table {
 	padding : 5px 10px 5px 10px;
 	text-align : center;
   }
+>>>>>>> bb79450cce8f165a75cca0608958681f1bd44da1
