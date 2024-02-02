@@ -187,15 +187,24 @@ footer {
 
 #sidebar {
 	width : 25%;
-  }
+}
 
 #main {
 	width: 75%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+#arrowbar {
+	width : 5%;
+}
+
 /*サイドバー追加*/
 
 .tenki_pic {
+	width: 70%;
+}
+
+.arrow_pic {
 	width: 70%;
 }
