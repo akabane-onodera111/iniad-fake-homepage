@@ -217,12 +217,13 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse; /* セルのボーダーを合わせる */
+	background-color: #fafafa; /* 表の背景色を薄い青に設定 */
 }
 th, td {
-    border: 1px solid #ddd; /* 薄いグレーのボーダー */
+    border: 1px solid rgb(7, 7, 7); /* 薄いグレーのボーダー */
     padding: 8px; /* セルの内側のスペース */
     text-align: left; /* 左揃え */
 }
 th {
-    background-color: #f8f6f6; /* 見出しの背景色 */
+    background-color: #cfcccc; /* 見出しの背景色 */
 }
