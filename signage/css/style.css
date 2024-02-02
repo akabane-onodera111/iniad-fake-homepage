@@ -11,7 +11,7 @@
 	width: 1080px;
 	height: 1920px;
 	overflow: hidden;
-	background-color: #00bfff;
+	background-color: #7fbfff;
 	border: solid 0px #000;
 }
 .carousel-control {
@@ -152,6 +152,7 @@ footer {
     animation-direction: alternate;
     animation-duration: 2s;
 	color: #696969;
+	font-weight: bold;
 }
 
 .pic_letter2{
@@ -165,6 +166,7 @@ footer {
     animation-direction: alternate;
     animation-duration: 2.5s;
 	color: #696969;
+	font-weight: bold;
 }
 
 
