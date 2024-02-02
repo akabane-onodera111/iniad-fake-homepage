@@ -303,3 +303,23 @@ table {
 	text-align : center;
   }
 >>>>>>> bb79450cce8f165a75cca0608958681f1bd44da1
+
+/*池田追加分*/
+#id55 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.tenki {
+	max-width: 50%;
+	height: auto;
+	
+}
+
+  
+
+  
