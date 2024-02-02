@@ -3,7 +3,15 @@
 	width: 1080px;
 	height: 1920px;
 	overflow: hidden;
-	background-color: #f0f8ff;
+	background-color: #fff;
+	border: solid 0px #000;
+}
+.wrap2 {
+	position: relative;
+	width: 1080px;
+	height: 1920px;
+	overflow: hidden;
+	background-color: #00bfff;
 	border: solid 0px #000;
 }
 .carousel-control {
@@ -99,12 +107,16 @@ footer {
 }
 /*追加分*/
 
+
 /*瀬川追加分*/
 .title1 {
 	text-align :center;
 	position: relative;
 	top: 80px;
 	font-size: 70px;
+	font-family: "YuKyokasho Yoko";
+	color: #fff;
+	font-weight: bold;
 }
 
 .title2 {
@@ -113,6 +125,9 @@ footer {
 	font-size: 70px;
 	top: 80px;
 	margin-bottom:170px;
+	color: #fff;
+	font-weight: bold;
+	font-family:"BIZ UDMincho";
 }
 
 .pic_place{
@@ -136,6 +151,7 @@ footer {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 2s;
+	color: #696969;
 }
 
 .pic_letter2{
@@ -148,6 +164,7 @@ footer {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 2.5s;
+	color: #696969;
 }
 
 
@@ -177,6 +194,10 @@ footer {
     100% {
         transform: translate(0,30px)
     }
+}
+
+body {
+   background-image: url(‘img_fixed/sky.jpg’);
 }
 
 /*サイドバー追加*/
