@@ -210,10 +210,7 @@ footer {
 }
 
 /*池田追加分*/
-{
-    width: 80%;
-    margin: 0 auto;
-}
+
 table {
     width: 100%;
     border-collapse: collapse; /* セルのボーダーを合わせる */
