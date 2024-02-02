@@ -3,7 +3,15 @@
 	width: 1080px;
 	height: 1920px;
 	overflow: hidden;
-	background-color: #f0f8ff;
+	background-color: #fff;
+	border: solid 0px #000;
+}
+.wrap2 {
+	position: relative;
+	width: 1080px;
+	height: 1920px;
+	overflow: hidden;
+	background-color: #7fbfff;
 	border: solid 0px #000;
 }
 .carousel-control {
@@ -99,12 +107,16 @@ footer {
 }
 /*追加分*/
 
+
 /*瀬川追加分*/
 .title1 {
 	text-align :center;
 	position: relative;
 	top: 80px;
 	font-size: 70px;
+	font-family: "YuKyokasho Yoko";
+	color: #fff;
+	font-weight: bold;
 }
 
 .title2 {
@@ -113,6 +125,9 @@ footer {
 	font-size: 70px;
 	top: 80px;
 	margin-bottom:170px;
+	color: #fff;
+	font-weight: bold;
+	font-family:"BIZ UDMincho";
 }
 
 .pic_place{
@@ -136,6 +151,8 @@ footer {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 2s;
+	color: #696969;
+	font-weight: bold;
 }
 
 .pic_letter2{
@@ -148,6 +165,8 @@ footer {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 2.5s;
+	color: #696969;
+	font-weight: bold;
 }
 
 
@@ -177,6 +196,14 @@ footer {
     100% {
         transform: translate(0,30px)
     }
+}
+
+body {
+   background-image: url(‘img_fixed/sky.jpg’);
+}
+
+.back {
+	width: 10%;
 }
 
 /*サイドバー追加*/
@@ -209,9 +236,15 @@ footer {
 	width: 90%;
 }
 
+.item_pic {
+	width: 20%;
+}
+
 .arrow_pic {
 	width: 70%;
 }
+
+
 
 <<<<<<< HEAD
 /*池田追加分*/
@@ -251,20 +284,21 @@ table {
 >>>>>>> bb79450cce8f165a75cca0608958681f1bd44da1
 
 /*池田追加分*/
-  .thead {
-	text-align: center; /* コンテンツを中央揃えに */
-	padding: 20px; /* 内側の余白を設定 */
-  }
-  
-  .thead {
-	color: #333; /* 見出しの文字色 */
-	margin-bottom: 20px; /* 見出し下の余白 */
-  }
-  
-  .tenki {
-	max-width: 100%; /* 画像の最大幅を設定 */
-	height: auto; /* 画像の高さを自動調整 */
-  }
+#id55 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.tenki {
+	max-width: 50%;
+	height: auto;
+	
+}
+
   
 
   
