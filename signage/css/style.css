@@ -197,6 +197,10 @@ footer {
 
 #arrowbar {
 	width : 5%;
+	left: 0;
+	margin: 0;
+	padding: 500px 0;
+	text-align: center;
 }
 
 /*サイドバー追加*/
