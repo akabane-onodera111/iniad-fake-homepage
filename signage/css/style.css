@@ -251,14 +251,20 @@ table {
 >>>>>>> bb79450cce8f165a75cca0608958681f1bd44da1
 
 /*池田追加分*/
-.image55 {
-	width: 300px; /* 画像のコンテナの幅 */
-	height: 200px; /* 画像のコンテナの高さ */
-	background-image: url('path/マイドライブ/pic.png); /* 背景画像のパス */
-	background-size: cover; /* 画像をコンテナにフィットさせる */
-	background-position: center; /* 画像の位置を中央に設定 */
+  .thead {
+	text-align: center; /* コンテンツを中央揃えに */
+	padding: 20px; /* 内側の余白を設定 */
   }
-
-
+  
+  .thead {
+	color: #333; /* 見出しの文字色 */
+	margin-bottom: 20px; /* 見出し下の余白 */
+  }
+  
+  .tenki {
+	max-width: 100%; /* 画像の最大幅を設定 */
+	height: auto; /* 画像の高さを自動調整 */
+  }
+  
 
   
