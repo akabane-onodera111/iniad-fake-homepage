@@ -186,25 +186,48 @@ footer {
   }
 
 #sidebar {
-	width : 25%;
+	width : 50%;
 }
 
 #main {
-	width: 75%;
+	width: 50%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 #arrowbar {
 	width : 5%;
+	left: 0;
+	margin: 0;
+	padding: 500px 0;
+	text-align: center;
 }
 
 /*サイドバー追加*/
 
 .tenki_pic {
-	width: 70%;
+	width: 90%;
 }
 
 .arrow_pic {
 	width: 70%;
 }
+
+
+
+table {
+	width : 100%;
+  }
+  
+  th {
+	background-color : #17194c;
+	color : #ffffff;
+	padding : 5px 10px 5px 10px;
+	text-align : center;
+  }
+  
+  td {
+	background-color : #eeeeee;
+	padding : 5px 10px 5px 10px;
+	text-align : center;
+  }
